@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- project-specific ---
+# saved models are too big for GitHub
+models/*
+!models/.gitkeep
+# IDE
+.idea/
+.vscode/
