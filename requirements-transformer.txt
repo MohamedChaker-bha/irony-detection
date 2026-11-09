@@ -1,0 +1,11 @@
+# Task D (transformer) only — install requirements.txt first.
+#
+# 1) Install PyTorch FIRST, from the selector on https://pytorch.org (pick your OS + CUDA version).
+#    The version used in this project (Windows, RTX 50-series GPU, CUDA 13.2 build):
+#      python -m pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cu132
+#
+# 2) Then:  python -m pip install -r requirements-transformer.txt
+transformers==5.22.2
+datasets==5.1.0
+evaluate==0.4.6
+accelerate==1.15.0
