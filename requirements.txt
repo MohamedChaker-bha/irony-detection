@@ -1,9 +1,11 @@
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-wordcloud
-nltk
-joblib
-jupyter
+# Shared libraries for the whole team (tasks A, B, C, D) — Python 3.12
+# Install with:  python -m pip install -r requirements.txt
+pandas==3.1.1
+numpy==2.5.4
+matplotlib==3.11.2
+seaborn==0.13.2
+scikit-learn==1.9.1
+wordcloud==1.9.6
+nltk==3.10.4
+joblib==1.6.0
+jupyter==1.1.1
