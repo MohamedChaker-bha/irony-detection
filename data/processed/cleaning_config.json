@@ -1,0 +1,6 @@
+{
+  "remove_urls": true,
+  "remove_mentions": true,
+  "lemmatize": true,
+  "remove_emojis": true
+}
