@@ -12,5 +12,10 @@ RESULTS = ROOT / "results"
 FIGURES = RESULTS / "figures"
 MODELS = ROOT / "models"
 
-# Placeholder: replace with the winner of your vectorizer comparison.
-TFIDF_PARAMS = dict(ngram_range=(1, 2), min_df=2, sublinear_tf=True)
+# Final TF-IDF settings chosen in notebook 02 (validation F1 macro)
+TFIDF_PARAMS = dict(
+    token_pattern=r"[\w']+|[^\w\s]",
+    lowercase=False,
+    ngram_range=(1, 2),
+    min_df=2,
+)
