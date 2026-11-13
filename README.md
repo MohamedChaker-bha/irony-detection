@@ -130,7 +130,7 @@ from src.data import load_split
 | Task | Member |
 |---|---|
 | A — Data, EDA & cleaning | *(name)* |
-| B — Shared setup, Naive Bayes, Logistic Regression | **Sabrine Zouaoui** - [GitHub](https://github.com/sbrnn) - [LinkedIn] (https://www.linkedin.com/in/sabrine-zouaoui-4372903ba/) |
+| B — Shared setup, Naive Bayes, Logistic Regression | **Sabrine Zouaoui** - [GitHub](https://github.com/sbrnn)  |
 | C — SVM, Random Forest, KNN | *(name)* |
 | D — Transformer fine-tuning | **Mohamed Chaker Iben Hadj Amor** — [GitHub](https://github.com/MohamedChaker-bha) · [LinkedIn](https://www.linkedin.com/in/mohamed-chaker-iben-hadj-amor) |
 
