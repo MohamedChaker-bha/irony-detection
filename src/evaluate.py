@@ -24,14 +24,14 @@ def evaluate(model_name,y_true,y_pred,split="validation",show=True,save_fig=True
 
     #the 2×2 table that shows which mistakes the model makes
     ConfusionMatrixDisplay.from_predictions(y_true, y_pred, display_labels=LABEL_NAMES, cmap="Blues", ax=ax)
-    ax.set_title(f"Confusion matrix: {model_name} ({split}")
+    ax.set_title(f"Confusion matrix: {model_name} ({split})")
     plt.tight_layout()
 
     #saves the confusion matrix as a picture file
     if save_fig:
         FIGURES.mkdir(parents=True, exist_ok=True)
         safe = model_name.lower().replace(" ", "_").replace("/", "-")
-        fig.savefig(FIGURES / f"cm_{safe}.png", dpi=150)
+        fig.savefig(FIGURES / f"cm_{safe}_{split}.png", dpi=150)
 
     if show:
         plt.show()
