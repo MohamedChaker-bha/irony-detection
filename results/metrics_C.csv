@@ -1,1 +1,4 @@
-model,split,accuracy,precision,recall,f1,f1_macro
+model,split,accuracy,precision,recall,f1,f1_macro,params
+SVM tuned,validation,0.6198952879581152,0.5974842767295597,0.625,0.6109324758842444,0.6196934641447833,clf__C=0.5
+Random Forest tuned,validation,0.612565445026178,0.586,0.6425438596491229,0.6129707112970711,0.6125650202187662,clf__max_depth=None; clf__min_samples_leaf=1; clf__n_estimators=100
+KNN tuned,validation,0.6429319371727749,0.631578947368421,0.6052631578947368,0.6181410974244121,0.6414205978764145,clf__metric=cosine; clf__n_neighbors=21; clf__weights=distance
