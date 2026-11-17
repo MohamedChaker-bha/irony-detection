@@ -1,1 +1,4 @@
-model,split,accuracy,precision,recall,f1,f1_macro
+model,split,accuracy,precision,recall,f1,f1_macro,params
+Twitter-RoBERTa,validation,0.7403141361256544,0.7139917695473251,0.7609649122807017,0.7367303609341825,0.7402660069133722,cardiffnlp/twitter-roberta-base; lr=2e-5; 4 epochs (best on val); batch 16; max_length 64; seed 42
+Twitter-RoBERTa,test,0.7755102040816326,0.6753246753246753,0.8360128617363344,0.7471264367816092,0.772645787198144,cardiffnlp/twitter-roberta-base; lr=2e-5; 4 epochs (best on val); batch 16; max_length 64; seed 42
+Twitter-RoBERTa,test_no_hashtags,0.7461734693877551,0.6538461538461539,0.7652733118971061,0.7051851851851851,0.741170420140185,cardiffnlp/twitter-roberta-base; lr=2e-5; 4 epochs (best on val); batch 16; max_length 64; seed 42
